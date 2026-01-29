@@ -3,15 +3,15 @@ import { Cards } from "../Cards/Cards";
 export default function Characteristics() {
     return (
         <>
-            <div className='w-full h-screen bg-[#f5f5f5] flex flex-col items-center py-24 px-4'>
+            <div className='w-full min-h-screen bg-[#f5f5f5] flex flex-col items-center py-24 px-4'>
 
-                <div className='w-[40%] flex flex-col items-center mb-10'>
-                    <h2 className='text-5xl font-bold mb-3 text-black'>Todo lo que necesitas</h2>
-                    <p className="text-gray-400 text-xl mt-3">Funcionalidades pensadas para ayudarte a ser más productivo sin complicaciones.</p>
+                <div className='w-11/12 md:w-2/3 lg:w-[40%] flex flex-col items-center mb-10'>
+                    <h2 className='text-3xl md:text-5xl font-bold mb-3 text-black'>Todo lo que necesitas</h2>
+                    <p className="text-gray-400 text-base md:text-xl mt-3">Funcionalidades pensadas para ayudarte a ser más productivo sin complicaciones.</p>
                 </div>
 
                 <div className="w-full flex justify-center mt-10">
-                    <div className="w-[60%] grid lg:grid-cols-3 gap-8">
+                    <div className="w-11/12 md:w-3/4 lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         {/*Tarjeta de 1 simple y efectivo*/}
 
                         <Cards
