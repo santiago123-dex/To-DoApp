@@ -20,7 +20,7 @@ export default function RegisterForm() {
                     <label className="text-black mb-1 mt-3">Contraseña</label>
                     <input type="password" className="w-full border border-gray-300 rounded-lg p-1 text-gray-500" placeholder="........" />
                     <button type="submit" className="p-2 text-white bg-[#0da2e7] rounded-lg mt-3 font-bold">Registrarse</button>
-                    <p className="text-gray-400 mt-3 text-center">¿Ya tiene cuenta? <Link href="register">Inicia Sesión gratis</Link></p>
+                    <p className="text-gray-400 mt-3 text-center">¿Ya tiene cuenta? <Link href="login">Inicia Sesión gratis</Link></p>
                 </form>
             </div>
         </>

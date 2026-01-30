@@ -28,7 +28,12 @@ public class UserEntity {
     @Column(name = "name")
     private String name;
 
+    @NonNull
+    @Column(name = "email", unique = true)
+    private String email;
 
-    
+    @NonNull
+    @Column(name = "password_hash")
+    private String password;  // Usamos 'password' como nombre de campo pero lo mapeamos a 'password_hash' en la BD
 
 }
